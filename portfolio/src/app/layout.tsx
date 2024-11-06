@@ -19,8 +19,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={twMerge(interFont.className, 
-        calistogaFont.className, 
+      <body className={twMerge(interFont.variable, 
+        calistogaFont.variable, 
         "bg-gray-900 text-white antialiased font-sans")}>
         {children}
       </body>
