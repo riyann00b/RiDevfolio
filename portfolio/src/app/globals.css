@@ -6,4 +6,19 @@
 	.nav-item {
 		@apply px-4 py-1.5 rounded-full text-white/70 text-sm font-semibold hover:bg-white/10 hover:text-white transition duration-300;
 	}
+
+	.hero-ring {
+		@apply absolute inset-0  border-2 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-emerald-300/5 shadow-[0_0_80px_inset] shadow-emerald-300/5;
+	}
+}
+
+@keyframes wave {
+	0% { transform: rotate(0deg); }
+	10% { transform: rotate(14deg); }
+	20% { transform: rotate(-8deg); }
+	30% { transform: rotate(14deg); }
+	40% { transform: rotate(-4deg); }
+	50% { transform: rotate(10deg); }
+	60% { transform: rotate(0deg); }
+	100% { transform: rotate(0deg); }
 }
