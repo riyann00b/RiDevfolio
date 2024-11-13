@@ -71,7 +71,7 @@ export const HeroSection = () => {
 
         <div className="max-w-lg mx-auto text-center">
           <h1 className="font-serif text-3xl md:text-5xl mt-8 tracking-wide">
-            Building Exceptional User Experiences
+            Building The Future Technologies
           </h1>
           <p className="mt-4 text-white/60 md:text-lg">
             I specialize in creating the future of tech. I am currently available for new projects and would love to help you build something amazing.
