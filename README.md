@@ -155,12 +155,6 @@ If using a custom domain like `ricode.me`:
 
 **Note:** The workflow uses Bun for faster builds. No additional configuration needed!
 
-### Vercel
-```bash
-bun run build
-# Deploy the dist/ folder to Vercel
-```
-
 ### Netlify
 ```bash
 bun run build
