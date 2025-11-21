@@ -3,8 +3,8 @@
 A modern, responsive portfolio website built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com). Showcasing professional experience, projects, skills, certifications, and education in a clean, performant single-page application.
 
 ![Portfolio Preview](https://img.shields.io/badge/Status-Live-success)
-![Astro](https://img.shields.io/badge/Astro-5.12.3-FF5D01?logo=astro)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1.11-38B2AC?logo=tailwindcss)
+![Astro](https://img.shields.io/badge/Astro-5.16.0-FF5D01?logo=astro)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1.17-38B2AC?logo=tailwindcss)
 
 ## 🌟 Features
 
