@@ -136,6 +136,25 @@ RiDevfolio/
 
 This site can be deployed to any static hosting service:
 
+### GitHub Pages (Automated)
+
+The repository includes a GitHub Actions workflow that automatically deploys to GitHub Pages on every push to the main branch.
+
+**Setup Steps:**
+
+1. Go to your repository Settings → Pages
+2. Under "Build and deployment", select "GitHub Actions" as the source
+3. Push to the main branch - the workflow will automatically build and deploy
+
+**Custom Domain (Optional):**
+
+If using a custom domain like `ricode.me`:
+1. Add your domain in Settings → Pages → Custom domain
+2. The `public/CNAME` file is already configured
+3. Update DNS records at your domain provider to point to GitHub Pages
+
+**Note:** The workflow uses Bun for faster builds. No additional configuration needed!
+
 ### Vercel
 ```bash
 bun run build
@@ -148,13 +167,11 @@ bun run build
 # Deploy the dist/ folder to Netlify
 ```
 
-### GitHub Pages
+### Other Static Hosts
 ```bash
 bun run build
-# Deploy the dist/ folder to GitHub Pages
+# Deploy the dist/ folder to your hosting provider
 ```
-
-The included GitHub Actions workflow (`.github/workflows/astro.yml`) automatically deploys to GitHub Pages on every push to the main branch.
 
 ## 🤝 Contributing
 
