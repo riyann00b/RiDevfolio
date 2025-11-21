@@ -11,14 +11,23 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-
+*.log
 
 # environment variables
 .env
 .env.production
+.env.local
+.env.*.local
 
 # macOS-specific files
 .DS_Store
+
+# Windows-specific files
+Thumbs.db
+Desktop.ini
+
+# Linux-specific files
+*~
 
 # jetbrains setting folder
 .idea/
@@ -26,3 +35,14 @@ pnpm-debug.log*
 # editor-specific folders
 .vscode/
 .cursor/
+
+# temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# package manager lock files (keep only bun.lock)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

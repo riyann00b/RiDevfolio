@@ -5,7 +5,7 @@ export const siteConfig = {
   accentColor: "#98fd9e",
   social: {
     email: "riyannazeer786@gmail.com",
-    linkedin: "www.linkedin.com/in/md-riyan-nazeer",
+    linkedin: "https://www.linkedin.com/in/md-riyan-nazeer",
     //twitter: "https://x.com/rfitzio",
     github: "https://github.com/riyann00b",
   },

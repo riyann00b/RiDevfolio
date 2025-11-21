@@ -1,7 +1,27 @@
 {
-  "name": "devportfolio",
+  "name": "ridevfolio",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "Modern portfolio website built with Astro and Tailwind CSS",
+  "author": {
+    "name": "MD Riyan Nazeer",
+    "email": "riyannazeer786@gmail.com",
+    "url": "https://ricode.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/riyann00b/RiDevfolio"
+  },
+  "keywords": [
+    "portfolio",
+    "astro",
+    "tailwindcss",
+    "typescript",
+    "personal-website",
+    "data-engineer",
+    "ai-ml"
+  ],
+  "license": "MIT",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -10,7 +30,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
-    "astro": "^5.12.3",
+    "astro": "5.16.0",
     "tailwindcss": "^4.1.11"
   },
   "trustedDependencies": [
